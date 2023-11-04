@@ -1,13 +1,9 @@
-import random
+m = int(input("Enter length:  "))
+n = int(input("Enter width: "))
 
 
-a = int(input("how many number do you want? "))
-n = []
+for i in range(n):
+    for j in range(m):
+        print("*" "#", end = "" )
 
-for i in range(a):
-    b = (random.randint(1, 100))
-    if b not in n:
-        n.append(b)
-
-
-print(n)
+ print()       
